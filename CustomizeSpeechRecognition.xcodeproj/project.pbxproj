@@ -11,6 +11,8 @@
 		CAFCFCB22AE3C74F0075DDE5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFCFCB12AE3C74F0075DDE5 /* ContentView.swift */; };
 		CAFCFCB42AE3C7520075DDE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAFCFCB32AE3C7520075DDE5 /* Assets.xcassets */; };
 		CAFCFCB72AE3C7520075DDE5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAFCFCB62AE3C7520075DDE5 /* Preview Assets.xcassets */; };
+		CAFCFCBE2AE3C96F0075DDE5 /* SpeechRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFCFCBD2AE3C96F0075DDE5 /* SpeechRecognizer.swift */; };
+		CAFCFCC02AE3C9AD0075DDE5 /* ListenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFCFCBF2AE3C9AD0075DDE5 /* ListenViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		CAFCFCB12AE3C74F0075DDE5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CAFCFCB32AE3C7520075DDE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CAFCFCB62AE3C7520075DDE5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CAFCFCBD2AE3C96F0075DDE5 /* SpeechRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechRecognizer.swift; sourceTree = "<group>"; };
+		CAFCFCBF2AE3C9AD0075DDE5 /* ListenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListenViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 				CAFCFCB12AE3C74F0075DDE5 /* ContentView.swift */,
 				CAFCFCB32AE3C7520075DDE5 /* Assets.xcassets */,
 				CAFCFCB52AE3C7520075DDE5 /* Preview Content */,
+				CAFCFCBD2AE3C96F0075DDE5 /* SpeechRecognizer.swift */,
+				CAFCFCBF2AE3C9AD0075DDE5 /* ListenViewModel.swift */,
 			);
 			path = CustomizeSpeechRecognition;
 			sourceTree = "<group>";
@@ -139,6 +145,8 @@
 			files = (
 				CAFCFCB22AE3C74F0075DDE5 /* ContentView.swift in Sources */,
 				CAFCFCB02AE3C74F0075DDE5 /* CustomizeSpeechRecognitionApp.swift in Sources */,
+				CAFCFCBE2AE3C96F0075DDE5 /* SpeechRecognizer.swift in Sources */,
+				CAFCFCC02AE3C9AD0075DDE5 /* ListenViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +283,8 @@
 				DEVELOPMENT_TEAM = 93SMW9VKD8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +314,8 @@
 				DEVELOPMENT_TEAM = 93SMW9VKD8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
